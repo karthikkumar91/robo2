@@ -1,0 +1,88 @@
+DB DESIGN ATTRIBUTE
+
+1)Sign Up/Create_user
+
+a)First Name 	- string,
+b)Last Namr 	- String,
+c)Email_Id 	-String,
+d)Create_pwd	-String.
+
+**************************************
+2)Sign In/Login
+
+a)UserName/Email	-string
+b)Password	-string
+
+*************************************
+3)User Details:
+
+a)Company Name	-string
+b)website		-string
+c)solgan		-string
+d)Description	-Array
+e)Phone_No	-Number
+f)VAT_Id		-String
+g)Address		-Array
+h)Education	-string
+i)Experience	-float
+j)skill_set		-Array
+k)location		-String
+l)hr/pay		-Number
+m)Job_title	-string
+
+**************************************
+4)Hiring/posting_job
+
+a)Role		-string
+b)Project_Name	-string
+c)Location	`	-string
+d)Pay/hr		-string
+e)commitment	-string
+f)Req_skills	-string
+
+***************************************
+5)post/validity
+
+a)Appiled_date	-Date
+b)Expire_date	-date
+c)Renewal_date	-Date
+d)Acitive_Post	-Boolean
+e)InActive		-Boolean
+
+************************************
+6)On_project
+
+a)Start_date	-Date
+b)End_Date	-Date
+c)No_of_Proj	-date
+d)Proj_id		-String
+e)Wanted_hr_per_day	-Foat
+
+**************************************
+7)Project_plan
+
+a)project_name	-string
+b)Description	-Array
+c)Budget_plan	-Number
+d)Amout_paid	-Number
+e)Pending_amt	-Number
+
+**************************************
+8)Search_tbl
+
+a)Keywords		-string
+b)Experience		-Number
+c)Skill_set			-Array
+d)Location 		-String
+e)Availability_hr		-Number
+f)Frm_month_of_avaialble	-Month
+
+
+*************************************
+
+9)DashBoard
+
+a)views		-Number
+b)comments	-Array	
+c)price		-number
+d)Location		-String
